@@ -23,13 +23,16 @@
         body {
             display: flex;
             justify-content: center;
-            align-items: flex-start;
+            align-items: center;
+            min-height: 100vh;
         }
 
-        img {
+        .invitacion {
             width: 100%;
-            max-width: 1536px;
+            max-width: 900px;
             height: auto;
+            max-height: 100vh;
+            object-fit: contain;
             display: block;
         }
     </style>
@@ -37,9 +40,11 @@
 
 <body>
 
-    <img src="invitacion.png"
+    <img class="invitacion"
+         src="invitacion.png"
          alt="Invitación a charla de ciberseguridad">
 
 </body>
 </html>
 ```
+
