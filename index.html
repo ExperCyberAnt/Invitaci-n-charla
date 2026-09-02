@@ -9,35 +9,67 @@
 
     ```html
 <style>
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    html, body {
-        width: 100%;
-        min-height: 100%;
-        background: #001b4d;
-    }
-
-    body {
-        width: 100%;
-        min-height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        overflow-x: hidden;
-        overflow-y: auto;
-    }
-
-    .invitacion {
-        width: 100%;
-        max-width: 900px;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-    }
+2
+* {
+3
+margin: 0;
+4
+padding: 0;
+5
+box-sizing: border-box;
+6
+}
+7
+ 
+8
+html, body {
+9
+width: 100%;
+10
+min-height: 100%;
+11
+background: #001b4d;
+12
+}
+13
+ 
+14
+body {
+15
+min-height: 100vh;
+16
+display: flex;
+17
+justify-content: center;
+18
+align-items: center; /* Centrado vertical */
+19
+overflow: hidden;
+20
+padding: 10px;
+21
+}
+22
+ 
+23
+.invitacion {
+24
+display: block;
+25
+max-width: 100%;
+26
+max-height: 100vh;
+27
+width: auto;
+28
+height: auto;
+29
+object-fit: contain;
+30
+margin: auto;
+31
+}
+32
 </style>
 ```
 
