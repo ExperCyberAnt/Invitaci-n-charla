@@ -25,7 +25,6 @@
             display: flex;
             justify-content: center;
             align-items: flex-start;
-            padding: 10px;
             overflow-x: hidden;
         }
 
@@ -33,7 +32,6 @@
             display: block;
             width: 100%;
             text-align: center;
-            text-decoration: none;
         }
 
         .invitacion {
@@ -43,6 +41,19 @@
             display: block;
             margin: 0 auto;
             cursor: pointer;
+        }
+
+        /* CELULARES */
+        @media (max-width: 600px) {
+            body {
+                padding: 0;
+            }
+
+            .invitacion {
+                width: 100vw;
+                max-width: none;
+                height: auto;
+            }
         }
     </style>
 </head>
@@ -63,4 +74,5 @@
 </body>
 </html>
 ```
+
 
